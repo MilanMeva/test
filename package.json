@@ -1,0 +1,26 @@
+{
+  "name": "test-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "echo 'Preinstalling...'",
+    "install": "echo 'Installing dependencies...'",
+    "postinstall": "echo 'Postinstalling...'",
+    "preuninstall": "echo 'Preuninstalling...'",
+    "uninstall": "echo 'Uninstalling...'",
+    "postuninstall": "echo 'Postuninstalling...'",
+    "preprepare": "echo pre-preparing...",
+    "prepare": "echo preparing.....",
+    "prepack": "echo 'Preparing package for publishing...'",
+    "pack": "echo 'Packaging...'",
+    "postpack": "echo 'Post packaging...'",
+    "prepublishOnly": "echo 'Preparing for publishing...'",
+    "publish": "echo 'Publishing...'",
+    "postpublish": "echo 'Post publishing...'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
